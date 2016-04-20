@@ -1,0 +1,10 @@
+branches:
+  only:
+    - master
+
+language: c
+
+compiler:
+  - gcc
+
+script: make
